@@ -20,6 +20,7 @@ html {
     height: 100vh;
     border-right: 1px solid rgb(27, 27, 27);
     position: fixed;
+
   }
   @media (nav) {
     
@@ -31,9 +32,11 @@ html {
   }
   .nav-link {
     border-top: 1px solid rgb(27, 27, 27);
-    padding: 20px;
+    padding: 10px auto;
     margin: 10px 0;
     justify-content: center;
+    color: rgb(27, 27, 27);
+    text-decoration: none;
   }
   .main-container {
     width: 60%;
