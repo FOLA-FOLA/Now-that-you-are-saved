@@ -12,7 +12,7 @@ html {
   p {
     font-size: 16px;
     font-weight: normal;
-    leading: 18px
+    line-height: 18px
   }
   nav {
     display: flex;
@@ -22,11 +22,19 @@ html {
     position: fixed;
 
   }
-  @media (nav) {
-    
+  @media (width = 500px) {
+    nav {
+        width: 20%
+    }
+    nav h1 {
+        width: 19%
+    }
+    nav-link {
+        width: 15%
+    }
   }
   nav h1 {
-    margin 40px o;
+    margin: 20% o;
     padding-left: 20px;
     max-width: 60%
   }
